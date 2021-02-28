@@ -1,0 +1,12 @@
+
+RewriteEngine on
+Options All -Indexes
+
+DirectoryIndex index.php index.htm index.html
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^skoder\.co$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.skoder\.co$
+RewriteRule ^(.*)$ "https\:\/\/skoder\.co\/$1" [R=301,L]
+
+ErrorDocument 404 /404.php
