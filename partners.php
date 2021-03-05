@@ -78,7 +78,7 @@
         </div>
         <div class="container clearfix">
           <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true"
-            data-nav="false" data-autoplay="5000" data-pagi="false" data-items="2">
+            data-nav="true" data-autoplay="5000" data-pagi="false" data-items="2">
             <div class=""><a href="#"><img style="height: 20rem;"
                   src="images/Who we work with images/Bangladesh Navy.jpg" alt="Clients"></a>
               <h3>Bangladesh Navy
@@ -137,8 +137,7 @@
         <div class="container clearfix">
 
           <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true"
-            data-nav="false" data-autoplay="5000" data-pagi="false" data-items="2">
-
+            data-nav="true" data-autoplay="5000" data-pagi="false" data-items="2">
             <div class="oc-item"><a href="https://samsonrope.com/"><img style="height: 20rem;"
                   src="images/Sole Agency Pictures/Samson Rope Technologies (USA).png" alt="Clients">
               </a>
