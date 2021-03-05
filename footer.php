@@ -17,7 +17,8 @@
                   <div class="mb-0">
                     <strong> Get in touch:</strong>
                     <br>
-                    <strong>Phone: </strong><a href="tel:+8801712551181">+8801712551181</a>
+                    <strong>Phone: </strong><a href="tel:+8801712551181">+8801712551181</a> <br>
+                    <strong>Email: </strong><a href="mailto:info@alfalogistics.com">info@alfalogistics.com</a>
                   </div>
                 </div>
               </div>
