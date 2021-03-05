@@ -192,11 +192,6 @@
             </div>
 
             <div class="row">
-              <div class="col-md-3 col-sm-4">
-                <img src="images/What we do Images/Medical 2.jpg" alt="Medical 2">
-
-
-              </div>
               <div class="col">
                 <p>
                   On top of that, we can help you procure:</p>
@@ -206,6 +201,9 @@
                   <li>Pharmaceutical products</li>
                   <li>Public health products</li>
                 </ol>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <img src="images/What we do Images/Medical 2.jpg" alt="Medical 2">
               </div>
             </div>
 
