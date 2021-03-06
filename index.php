@@ -359,7 +359,7 @@
 
         <div class="container clearfix">
 
-            data-nav="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
+        <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
             data-items-lg="4" data-items-xl="4">
 
             <div class="oc-item"><a href="partners.php"><img src="images/Our Clients images/Bangladesh Navy Logo.png"
