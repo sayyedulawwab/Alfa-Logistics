@@ -73,36 +73,32 @@
 
             <div class="form-result"></div>
 
-            <form id="quick-contact-form" name="quick-contact-form"
-              action="http://themes.semicolonweb.com/html/canvas/include/form.php" method="post"
+            <form
+              action="./mailer.php" method="post"
               class="quick-contact-form mb-0">
 
-              <div class="form-process">
-                <div class="css3-spinner">
-                  <div class="css3-spinner-scaler"></div>
-                </div>
-              </div>
+
 
               <div class="input-group mx-auto">
                 <div class="input-group-prepend">
                   <div class="input-group-text"><i class="icon-user"></i></div>
                 </div>
-                <input type="text" class="required form-control" id="quick-contact-form-name"
-                  name="quick-contact-form-name" value="" placeholder="Full Name" />
+                <input type="text" class="required form-control" id="name"
+                  name="name" value="" placeholder="Full Name" />
               </div>
               <div class="input-group mx-auto">
                 <div class="input-group-prepend">
                   <div class="input-group-text"><i class="icon-email2"></i></div>
                 </div>
-                <input type="text" class="required form-control email" id="quick-contact-form-email"
-                  name="quick-contact-form-email" value="" placeholder="Email Address" />
+                <input type="text" class="required form-control email" id="email"
+                  name="email" value="" placeholder="Email Address" />
               </div>
-              <textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message"
-                name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+              <textarea class="required form-control input-block-level short-textarea" id="message"
+                name="message" rows="4" cols="30" placeholder="Message"></textarea>
               <input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck"
                 value="" />
               <input type="hidden" name="prefix" value="quick-contact-form-">
-              <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit"
+              <button type="submit" id="submit" name="footer_message"
                 class="btn btn-danger m-0" value="submit"><b>Send Email</b></button>
             </form>
           </div>

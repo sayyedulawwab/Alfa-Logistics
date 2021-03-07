@@ -73,48 +73,41 @@
 
                 <div class="form-result"></div>
 
-                <form class="mb-0" id="template-contactform" name="template-contactform"
-                  action="http://themes.semicolonweb.com/html/canvas/include/form.php" method="post">
-
-                  <div class="form-process">
-                    <div class="css3-spinner">
-                      <div class="css3-spinner-scaler"></div>
-                    </div>
-                  </div>
-
+                <form class="mb-0"
+                  action="./mailer.php" method="post">
                   <div class="row">
                     <div class="col-md-4 form-group">
-                      <label for="template-contactform-name">Name <small>*</small></label>
-                      <input type="text" id="template-contactform-name" name="template-contactform-name" value=""
+                      <label for="name">Name <small>*</small></label>
+                      <input type="text" id="name" name="name" value=""
                         class="sm-form-control required" />
                     </div>
 
                     <div class="col-md-4 form-group">
-                      <label for="template-contactform-email">Email <small>*</small></label>
-                      <input type="email" id="template-contactform-email" name="template-contactform-email" value=""
+                      <label for="email">Email <small>*</small></label>
+                      <input type="email" id="email" name="email" value=""
                         class="required email sm-form-control" />
                     </div>
 
                     <div class="col-md-4 form-group">
-                      <label for="template-contactform-phone">Phone</label>
-                      <input type="text" id="template-contactform-phone" name="template-contactform-phone" value=""
+                      <label for="phone">Phone</label>
+                      <input type="text" id="phone" name="phone" value=""
                         class="sm-form-control" />
                     </div>
 
                     <div class="w-100"></div>
 
                     <div class="col-12 form-group">
-                      <label for="template-contactform-subject">Subject <small>*</small></label>
-                      <input type="text" id="template-contactform-subject" name="subject" value=""
+                      <label for="subject">Subject <small>*</small></label>
+                      <input type="text" id="subject" name="subject" value=""
                         class="required sm-form-control" />
                     </div>
 
                     <div class="w-100"></div>
 
                     <div class="col-12 form-group">
-                      <label for="template-contactform-message">Message <small>*</small></label>
-                      <textarea class="required sm-form-control" id="template-contactform-message"
-                        name="template-contactform-message" rows="6" cols="30"></textarea>
+                      <label for="message">Message <small>*</small></label>
+                      <textarea class="required sm-form-control" id="message"
+                        name="message" rows="6" cols="30"></textarea>
                     </div>
 
                     <div class="col-12 form-group d-none">
@@ -123,12 +116,12 @@
                     </div>
 
                     <div class="col-12 form-group">
-                      <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit"
+                      <button name="contact" type="submit" tabindex="5" value="Submit"
                         class="button button-3d m-0">Submit Comment</button>
                     </div>
                   </div>
 
-                  <input type="hidden" name="prefix" value="template-contactform-">
+
 
                 </form>
               </div>
